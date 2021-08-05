@@ -11,6 +11,8 @@ You will need to install [v4l2loopback](https://github.com/umlaeute/v4l2loopback
 $ sudo apt update
 $ sudo apt install v4l2loopback-dkms
 $ sudo modprobe v4l2loopback
+$ python -m venv .env
+$ source ./env/bin/activate
 $ pip install -r requirements.txt
 ```
 
@@ -21,12 +23,14 @@ $ pip install -r requirements.txt
 It takes 3 parameters, one with the address of the background image, another would be the address of the virtual webcam device and at the end the address of the webcam, in integer, format used by OpenCV.
 
 ```
-$ python vwebcam.py --background=./images/background.jpg --virtual-webcam-device=/dev/video4 --webcam-device=2
+$(.env) python vwebcam.py --background=./images/background.jpg --virtual-webcam-device=/dev/video4 --webcam-device=2
 ```
 
+![](https://raw.githubusercontent.com/xxpauloxx/virtual-background/main/images/example.jpeg)
 
+With the creativity to make many cool changes using OpenCV and have a differentiated image in video calls. `:sunglasses:`
 
 ### CONTACT
 
-paulo.pinda@gmail.com
+Any questions please contact us paulo.pinda@gmail.com
 
