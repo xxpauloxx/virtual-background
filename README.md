@@ -28,7 +28,7 @@ $(.env) python vwebcam.py --background=./images/background.jpg --virtual-webcam-
 
 ![](https://raw.githubusercontent.com/xxpauloxx/virtual-background/main/images/example.jpeg)
 
-With the creativity to make many cool changes using OpenCV and have a differentiated image in video calls. `:sunglasses:`
+With the creativity to make many cool changes using OpenCV and have a differentiated image in video calls. :sunglasses:
 
 ### CONTACT
 
